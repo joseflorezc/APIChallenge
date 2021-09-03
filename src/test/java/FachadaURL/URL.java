@@ -11,6 +11,17 @@ public class URL {
     private String apiKey;
     private Boolean newAtribute = false;
     private Boolean validateWithLogin = false;
+    private String session_id;
+
+    public String getSession_id() {
+        return session_id;
+    }
+
+    public void setSession_id(String session_id) {
+        this.session_id = session_id;
+    }
+
+
 
     public Boolean isNewAtribute() {
         return newAtribute;
@@ -99,6 +110,10 @@ public class URL {
 
 
         url = url + "?api_key="+apiKey;
+
+        if (!session_id.equals("")){
+            url = url + "&session_id="+session_id;
+        }
 
 
         return url;

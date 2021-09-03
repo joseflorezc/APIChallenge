@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviders/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Movies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/AuthenticationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CommonAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CommonSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HooksList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ListsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ReadCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Credentials/Credentials.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/FachadaURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FachadaURL/FachadaURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/FachadaURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/FacadeURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Lists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/FachadaURL.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Authentication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,18 +76,15 @@
       <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\src\test\resources" />
       <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\framework Challenge\FrameworkChallenge\src\test\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Authentication">
+  <component name="RunManager" selected="TestNG.Lists">
     <configuration name="Authentication" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="Steps.Authentication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Authentication" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,83 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Authentication.CreatingRequestToken" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.creatingSession" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="Steps.Authentication" />
-      <option name="METHOD_NAME" value="CreatingRequestToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Authentication.CreatingSession" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="Steps.Authentication" />
-      <option name="METHOD_NAME" value="CreatingSession" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Authentication.CreatingSessionLoginIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="Steps.Authentication" />
-      <option name="METHOD_NAME" value="CreatingSessionLoginIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Authentication.DeletingExistingSession" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Steps" />
-      <option name="MAIN_CLASS_NAME" value="Steps.Authentication" />
-      <option name="METHOD_NAME" value="DeletingExistingSession" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Authentication.getEpisodeGroupsTV" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FrameworkChallenge" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Authentication" />
-      <option name="METHOD_NAME" value="getEpisodeGroupsTV" />
+      <option name="METHOD_NAME" value="creatingSession" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +104,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingGet.getEpisodeGroupsTV" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FrameworkChallenge" />
+    <configuration name="Authentication.creatingSessionLoginIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestingGet" />
-      <option name="METHOD_NAME" value="getEpisodeGroupsTV" />
+      <option name="MAIN_CLASS_NAME" value="Authentication" />
+      <option name="METHOD_NAME" value="creatingSessionLoginIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lists" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lists" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lists.CreatingListOfMovies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Lists" />
+      <option name="METHOD_NAME" value="CreatingListOfMovies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Lists" />
         <item itemvalue="TestNG.Authentication" />
-        <item itemvalue="TestNG.Authentication.DeletingExistingSession" />
-        <item itemvalue="TestNG.Authentication.CreatingSession" />
-        <item itemvalue="TestNG.Authentication.CreatingSessionLoginIn" />
-        <item itemvalue="TestNG.Authentication.CreatingRequestToken" />
+        <item itemvalue="TestNG.Lists.CreatingListOfMovies" />
+        <item itemvalue="TestNG.Authentication.creatingSession" />
+        <item itemvalue="TestNG.Authentication.creatingSessionLoginIn" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +160,8 @@
       <workItem from="1630089514859" duration="4700000" />
       <workItem from="1630102517791" duration="8914000" />
       <workItem from="1630332023472" duration="7346000" />
-      <workItem from="1630348292160" duration="43022000" />
+      <workItem from="1630348292160" duration="60710000" />
+      <workItem from="1630603377262" duration="19062000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,10 @@
 package FachadaURL;
 
-public class FachadaURL {
+public class FacadeURL {
 
     private URL url;
 
-    public FachadaURL(String Dominio, String token, String category, String id, String subCategory, Boolean newAtribute,Boolean validateWithlogin ,  String apiKey){
+    public FacadeURL(String Dominio, String token, String category, String id, String subCategory, Boolean newAtribute, Boolean validateWithlogin , String apiKey, String session_id){
 
         url = new URL();
         url.setDominio(Dominio);
@@ -15,9 +15,11 @@ public class FachadaURL {
         url.setNewAtribute(newAtribute);
         url.setValidateWithLogin(validateWithlogin);
         url.setApiKey(apiKey);
+        url.setSession_id(session_id);
+        System.out.println(url.getSession_id());
 
     }
 
-    public String construirURLFach() { return url.construirURL();}
+    public String construirURLFaca() { return url.construirURL();}
 
 }
