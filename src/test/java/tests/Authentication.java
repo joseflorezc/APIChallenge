@@ -20,13 +20,13 @@ import static org.hamcrest.MatcherAssert.*;
 
 public class Authentication extends Hooks {
 
-    private static final Logger LOGGER = LogManager.getLogger(Authentication.class);
+    //private static final Logger LOGGER = LogManager.getLogger(Authentication.class);
 
 
 
     @Test
     public void CreatingGuestSession(){
-        FacadeURL fachadaURL = new FacadeURL(""+ domain, "","authentication","","guest_session", true,false, ""+apiKey,"");
+        FacadeURL fachadaURL = new FacadeURL(""+ domain, "","authentication","","guest_session", true,false, ""+apiKey,"", false);
 
         String url = fachadaURL.construirURLFaca();
 
@@ -49,22 +49,23 @@ public class Authentication extends Hooks {
 
         Response responseCreatingSessionLoginIn = AuthenticationSteps.creatingSessionLoginIn(apiKey, username, password);
 
+
         assertThat("The session login in was not successfully completed, the success message was false", CommonAsserts.successAssert(responseCreatingSessionLoginIn));
         assertThat("The session login in was not successfully completed, the token was not equal to the one sent in the body", CommonAsserts.expectedStringAssertWithPath(responseCreatingSessionLoginIn, "request_token", requestToken));
 
 
     }
 
-    @Test(dependsOnMethods = "creatingSessionLoginIn")
+    @Test
     public void creatingSession(){
 
         Response responseCreatingSession = AuthenticationSteps.creatingSession(apiKey, username, password);
 
-        CommonAsserts.successAssert(responseCreatingSession);
-        CommonAsserts.notNullAssertWithPath(responseCreatingSession, "session_id");
+        Assert.assertTrue(CommonAsserts.successAssert(responseCreatingSession), "The success message of creating session, appears to be false");
+        CommonAsserts.notNullAssertWithPath(responseCreatingSession, "session_id", "The session id of creating session, appears to be null");
     }
 
-    @Test(dependsOnMethods = "creatingSession")
+    @Test
     public void deletingExistingSession(){
 
         Response responseDeletingExistingSession = AuthenticationSteps.deletingExistingSession(apiKey, username,password);

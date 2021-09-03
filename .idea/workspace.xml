@@ -5,43 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/CommonAsserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ReadListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/dataLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/027718a0-6078-48c0-8224-9626da2dcd89-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/03c6b7d4-d785-4ccb-8e24-c7b5ab9162fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0a35f228-1626-415c-b731-1042a5dc9a38-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/15502e17-b038-430d-a8ed-7f06c6819be0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/17c3fd27-da56-41d5-819f-cc5606d59625-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1c017b10-8661-4248-9db1-953c05822cb5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1c3e594d-40f7-4d99-a16f-c67884b22b6b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1f8c07b3-f8f8-4be8-9bbb-bba6da658ac7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2801c521-67bb-4869-97fd-65ca049520a3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2af41f12-7204-4d1f-bbee-a3be3a6f571b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30af4c13-5201-4707-bb9e-fd9edac6936b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/333329b6-fd22-4165-866d-7651e9086772-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3ca21d67-573b-4853-b5ed-75fc4a39d342-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3fc52b43-4169-42b5-b927-f1965a4280f8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4083ba18-eae5-4168-9fcb-409ac50a0e7d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4f1dd0f0-366f-40e7-8472-e207fc9d4053-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/51ace2c2-58a2-448d-a0b0-33258604c4f3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/555c78b3-1227-4d30-8944-39f7138eab95-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a6deec7-1f27-44fd-9626-72257c451191-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a6e3c31-e7aa-47d5-81f0-fa80049fdd8a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/62395dba-b779-4322-8794-4520c13ce102-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/67d9ea5e-c654-49a5-a6f9-15149df89aff-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/690de059-d24d-44be-8d25-e853f5ff3d40-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6dded451-33f9-462c-af38-e58c5c8eb982-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7267c59e-ad6c-4370-9a18-9f8c0b87622a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/78f370dd-6929-4f56-8d32-b106bd6d1544-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7914506d-d3ae-4a53-bea8-4c649154f844-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b27ec6e-4936-46ae-b635-ae12d9b74fd2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b897381-92ac-4f36-bae8-355371590781-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7e5ef982-321a-4f14-8355-ecd9ece53996-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/80debe5e-e906-452d-b30d-b107da97f61e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/848f457e-593b-4465-9648-7c5cf0a29e9b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8a615398-7b15-4d0a-bd89-302a09a58d04-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8a8698d8-67c6-471d-bb95-eff57696db8f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b16911b-336a-41ed-a8df-8e0c6f6c4352-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c70fe80-e135-44ce-802e-0b530233d70e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9167680c-581e-40ae-a849-e206b0b09bca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9fb9064d-dd4b-4234-b695-22bc6c075bc1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a0202af8-391a-4f28-a5ef-bd33329a9a9b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3393d22-b084-49dd-b397-d0431e256aa9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ae863c4c-2f03-439f-b7cd-9a2b513b79c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aff9132e-65e1-448b-943e-de7043b9449f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b0f3da08-89d5-47e0-a241-93329203b755-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b4d90c30-1f3c-4132-be3a-cfc32886dde0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b6b27546-d267-44e5-8185-493dd44aed93-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b73bcd77-ad16-499b-85e5-ab3cd24c5ddc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8fb3b4a-1d72-49c1-9205-4996db55156a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bbd97ba1-a749-453c-a8c6-730fb6c6db4e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bc407595-6820-4024-b9c7-6cafe4203fbe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c1eba22f-a70e-4333-8b55-9a125e44d451-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4031aa5-e7c7-4ec3-b5ce-595145876da2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c48c6a11-451f-4f06-9e27-2be51c78519c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c6f1b4e4-9e9a-4037-ad45-79c4dc7f8ff6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c88cf6af-e5e8-4c1e-913f-89f876e25225-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c9c5c6ce-ef63-4ee9-9dc8-e790cb1fd739-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/caa29b2a-51b0-48f4-95d3-a74820a891c8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cca2334a-6886-4516-97e6-8801057300e2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ccb686a7-ef70-47c1-880b-74806ba0e9cd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d05af7a1-7f35-418c-8364-88228f87cd31-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dce519a1-d97b-4742-a05b-d83fadffccf7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd19d9f6-6e9a-4ca4-9a5b-1dc570c72949-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9f7f6ff-1c95-4dc6-b934-3738d2e99041-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ee6ed050-c13f-40bd-9224-6c50f732acda-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f1033a2a-04d2-4643-9f1e-37084e3dfda2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f3477330-294d-4b8a-ba52-695eca413694-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f9fa5212-181a-4313-b189-205d07d6bced-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fbaf353a-955d-4788-873d-1ff5f6853e6e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fc67141e-d977-44a8-837e-76fd363051e6-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataProviders/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/dataProviders/DataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/FacadeURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/FacadeURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Lists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AuthenticationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CommonAsserts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/CommonSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HooksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ListsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ReadCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ReadCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Credentials/Credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/credentials/Credentials.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Authentication.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Lists.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Lists.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Movies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Movies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DataProviders/DataProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/FacadeURL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Lists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Movies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/AuthenticationSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CommonAsserts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CommonSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/HooksList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ListsSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ReadCredentials.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/FacadeURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/FacadeURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/CommonAsserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/CommonAsserts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FrameworkChallenge-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestingGet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestingGet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestingGet/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestingGet/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestingGet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestingGet/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/fachadaURL/FacadeURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/fachadaURL/FacadeURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/fachadaURL/URL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/fachadaURL/URL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/CommonAsserts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/CommonAsserts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/ListsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/ListsSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +153,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1xK2ZJELQahYhCHergxgG1Pk5J0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -103,7 +192,7 @@
       <recent name="utils.steps" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Lists.obtainingListDetail">
+  <component name="RunManager" selected="TestNG.Lists">
     <configuration name="Authentication" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -115,21 +204,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Authentication.creatingSession" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.Authentication" />
-      <option name="METHOD_NAME" value="creatingSession" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Lists" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -138,11 +221,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lists.CreatingListOfMovies" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Lists.clearingMoviesFromList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Lists" />
-      <option name="METHOD_NAME" value="CreatingListOfMovies" />
+      <option name="METHOD_NAME" value="clearingMoviesFromList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lists.deletingListWithID" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
+      <option name="METHOD_NAME" value="deletingListWithID" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Lists.obtainingListDetail" />
-        <item itemvalue="TestNG.Lists.CreatingListOfMovies" />
         <item itemvalue="TestNG.Lists" />
+        <item itemvalue="TestNG.Lists.deletingListWithID" />
+        <item itemvalue="TestNG.Lists.clearingMoviesFromList" />
+        <item itemvalue="TestNG.Lists.obtainingListDetail" />
         <item itemvalue="TestNG.Authentication" />
-        <item itemvalue="TestNG.Authentication.creatingSession" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +297,8 @@
       <workItem from="1630102517791" duration="8914000" />
       <workItem from="1630332023472" duration="7346000" />
       <workItem from="1630348292160" duration="60710000" />
-      <workItem from="1630603377262" duration="24690000" />
+      <workItem from="1630603377262" duration="31899000" />
+      <workItem from="1630645523043" duration="2996000" />
     </task>
     <servers />
   </component>
@@ -208,5 +316,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

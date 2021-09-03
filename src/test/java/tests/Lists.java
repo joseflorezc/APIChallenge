@@ -1,68 +1,72 @@
 package tests;
 
+import org.hamcrest.Matchers;
+import org.testng.Assert;
 import utils.fachadaURL.FacadeURL;
 import utils.steps.CommonAsserts;
 import utils.steps.HooksList;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
+import utils.steps.ListsSteps;
 
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class Lists extends HooksList {
 
 
-
     @Test
-    public void obtainingListDetail(){
-
-        FacadeURL fachadaURL = new FacadeURL("https://api.themoviedb.org/3", "","list",""+idListDetail,"", false,false, ""+apiKey,"");
-
-        String url = fachadaURL.construirURLFaca();
-
-
-        Response response = when().get(url);
+    public void obtainingListDetail() {
+        Response response = ListsSteps.obtainingListDetail(apiKey, domain, idListDetail);
 
         response.then().extract().path("created_by").equals("joseflorez");
         response.then().extract().path("id").equals(idListDetail);
     }
 
     @Test
-    public void CreatingListOfMovies(){
+    public void creatingListOfMovies() {
 
-        String jsonCreatingListOfMovies = "{\n" +
-                "\"name\": \"" + name+ "\",\n" +
-                "\"description\": \"" + description+ "\",\n" +
-                "\"language\": \"" + language + "\"\n}";
+        Response response = ListsSteps.creatingListOfMovies(apiKey,domain,session_id,name,description,language);
 
-        FacadeURL facadeURL = new FacadeURL("" + domain, "","list","","", false,false, ""+apiKey,""+session_id);
-        String urlCreatingListOfMovies = facadeURL.construirURLFaca();
+        Assert.assertTrue(CommonAsserts.successAssert(response),"The success message of creating a list was not successful");
+        CommonAsserts.notNullAssertWithPath(response, "list_id", "The list id of creating a list appears to be null");
 
-        Response response = given().contentType("application/json").body(jsonCreatingListOfMovies).when().post(urlCreatingListOfMovies);
+    }
 
-        response.then().log().body();
-        CommonAsserts.successAssert(response);
-        CommonAsserts.notNullAssertWithPath(response, "list_id");
+    @Test
+    public void addingMovieToList() {
 
-        if(CommonAsserts.notNullAssertWithPath(response, "list_id")){
-            System.out.println("id lista to add: " );
-            idListToAdd = response.then().extract().path("list_id");
-        }
+        Response response = ListsSteps.addingMovieToList(apiKey,domain,session_id,name,description,language);
 
-
+        Assert.assertTrue(CommonAsserts.successAssert(response), "The success message of adding movie to list was not successful");
+        Assert.assertTrue(CommonAsserts.expectedNumberAssertWithPath(response, "status_code", 12),"The status code of adding movie to list was not successful");
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(response, "status_message",
+                "The item/record was updated successfully."),"The status message of adding movie to list was not successful");
 
 
     }
 
     @Test
-    public void addingMovieToList(){
+    public void clearingMoviesFromList() {
+        Response response = ListsSteps.clearingMoviesFromList(apiKey,domain,session_id,name,description,language);
 
-        //new Faker().letterify("random ??????? description ??????? ??????????")
+        Assert.assertTrue(CommonAsserts.successAssert(response), "The success message of clearing movies of list was not successful");
+
+        Assert.assertTrue(CommonAsserts.expectedNumberAssertWithPath(response, "status_code", 12),
+                "The status code of clearing movies of list was not successful");
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(response, "status_message",
+                "The item/record was updated successfully."), "The status code of clearing movies of list was not successful");
     }
 
     @Test
-    public void ClearingMoviesFromList(){}
+    public void deletingListWithID() {
 
-    @Test
-    public void DeletingListWithID(){}
+        Response response = ListsSteps.deletingListWithID(apiKey,domain,session_id,name,description,language);
+
+        Assert.assertTrue(CommonAsserts.expectedNumberAssertWithPath(response, "status_code", 11),
+                "The status code of clearing movies of list was not successful");
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(response, "status_message",
+                "Internal error: Something went wrong, contact TMDb."), "The status code of clearing movies of list was not successful");
+    }
 
 }

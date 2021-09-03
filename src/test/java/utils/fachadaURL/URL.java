@@ -1,5 +1,6 @@
 package utils.fachadaURL;
 
+
 public class URL {
 
 
@@ -12,6 +13,7 @@ public class URL {
     private Boolean newAtribute = false;
     private Boolean validateWithLogin = false;
     private String session_id;
+    private Boolean confirm = false;
 
     public String getSession_id() {
         return session_id;
@@ -22,7 +24,6 @@ public class URL {
     }
 
 
-
     public Boolean isNewAtribute() {
         return newAtribute;
     }
@@ -30,6 +31,7 @@ public class URL {
     public void setNewAtribute(boolean newAtribute) {
         this.newAtribute = newAtribute;
     }
+
     public String getApiKey() {
         return apiKey;
     }
@@ -86,37 +88,48 @@ public class URL {
         this.validateWithLogin = validateWithLogin;
     }
 
-    public String construirURL(){
+    public Boolean getConfirm() {
+        return confirm;
+    }
+
+    public void setConfirm(Boolean confirm) {
+        this.confirm = confirm;
+    }
+
+    public String construirURL() {
         String url = "";
 
-        url = ""+ dominio;
-        url = url + "/"+category;
+        url = "" + dominio;
+        url = url + "/" + category;
 
-        if(!token.equals("") ){
-            url = url +"/"+token;
+        if (!token.equals("")) {
+            url = url + "/" + token;
         }
-        if(!id.equals("")){
+        if (!id.equals("")) {
             url = url + "/" + id;
         }
-        if(!subCategory.equals("")){
+        if (!subCategory.equals("")) {
             url = url + "/" + subCategory;
         }
-        if(newAtribute){
+        if (newAtribute) {
             url = url + "/new";
         }
-        if(validateWithLogin){
+        if (validateWithLogin) {
             url = url + "/validate_with_login";
         }
 
 
-        url = url + "?api_key="+apiKey;
+        url = url + "?api_key=" + apiKey;
 
-        if (!session_id.equals("")){
-            url = url + "&session_id="+session_id;
+        if (!session_id.equals("")) {
+            url = url + "&session_id=" + session_id;
+        }
+        if (confirm){
+            url = url +"&confirm=true";
         }
 
 
-        return url;
+            return url;
     }
 
 

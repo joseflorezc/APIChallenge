@@ -11,7 +11,7 @@ public class AuthenticationSteps extends Hooks {
 
 
     public static Response creatingRequestToken(String apiKey) {
-        FacadeURL facadeURL = new FacadeURL("" + domain, "", "authentication", "", "token", true, false, "" + apiKey, "");
+        FacadeURL facadeURL = new FacadeURL("" + domain, "", "authentication", "", "token", true, false, "" + apiKey, "",false);
 
         String url = facadeURL.construirURLFaca();
 
@@ -40,7 +40,7 @@ public class AuthenticationSteps extends Hooks {
                 " \"request_token\": \"" + requestToken + "\"\n}";
 
 
-        FacadeURL facadeURLcreatingSessionLoginIn = new FacadeURL("" + domain, "", "authentication", "", "token", false, true, "" + apiKey, "");
+        FacadeURL facadeURLcreatingSessionLoginIn = new FacadeURL("" + domain, "", "authentication", "", "token", false, true, "" + apiKey, "",false);
 
         String urlCreatingSessionLoginIn = facadeURLcreatingSessionLoginIn.construirURLFaca();
 
@@ -69,7 +69,7 @@ public class AuthenticationSteps extends Hooks {
         String jsonCreatingSession = "{\n" +
                 "\"request_token\": \"" + requestToken + "\"\n}";
 
-        FacadeURL facadeURLCreatingSession = new FacadeURL("" + domain, "", "authentication", "", "session", true, false, "" + apiKey, "");
+        FacadeURL facadeURLCreatingSession = new FacadeURL("" + domain, "", "authentication", "", "session", true, false, "" + apiKey, "",false);
 
         String urlCreatingSession = facadeURLCreatingSession.construirURLFaca();
 
@@ -91,7 +91,7 @@ public class AuthenticationSteps extends Hooks {
         String jsonDeletingSession = "{\n" +
                 "\"session_id\": \"" + session_id + "\"\n}";
 
-        FacadeURL facadeURLDeletingExistingSession = new FacadeURL("https://api.themoviedb.org/3", "", "authentication", "", "session", false, false, "" + apiKey, "");
+        FacadeURL facadeURLDeletingExistingSession = new FacadeURL("https://api.themoviedb.org/3", "", "authentication", "", "session", false, false, "" + apiKey, "",false);
 
         String urlDeletingExistingSession = facadeURLDeletingExistingSession.construirURLFaca();
 
