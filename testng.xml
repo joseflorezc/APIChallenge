@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="The Movie DB">
-    <test name="Regression" preserve-order="true">
+    <test name="Tests Movie DB" preserve-order="true">
         <classes>
             <class name="tests.Authentication"/>
             <class name="tests.Lists"/>
             <class name="tests.Movies"/>
             <class name="tests.People"/>
         </classes>
-    </test> <!-- Test -->
+    </test><!-- Test -->
 </suite>
         <!-- Suite -->

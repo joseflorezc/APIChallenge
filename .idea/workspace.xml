@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testCases/People.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Lists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/CommonSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Authentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Authentication.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Lists.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Lists.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/testCases" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\src\test\resources\testCases" />
       <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\src\test\resources\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +190,7 @@
       <workItem from="1630348292160" duration="60710000" />
       <workItem from="1630603377262" duration="31899000" />
       <workItem from="1630645523043" duration="2996000" />
-      <workItem from="1630648747173" duration="4492000" />
+      <workItem from="1630648747173" duration="4864000" />
     </task>
     <servers />
   </component>
