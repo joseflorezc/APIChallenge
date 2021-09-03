@@ -3,9 +3,9 @@
 <suite name="The Movie DB">
     <test name="Regression" preserve-order="true">
         <classes>
-            <class name="Authentication"/>
-            <class name="Lists"/>
-            <class name="Movies"/>
+            <class name="tests.Authentication"/>
+            <class name="tests.Lists"/>
+            <class name="tests.Movies"/>
         </classes>
     </test> <!-- Test -->
 </suite>

@@ -5,27 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviders/DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Movies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/AuthenticationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CommonAsserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CommonSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/HooksList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ListsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/ReadCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Credentials/Credentials.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/CommonAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ReadListData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/dataLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/FachadaURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/FacadeURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Lists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/FachadaURL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataProviders/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/dataProviders/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/FacadeURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/FacadeURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/fachadaURL/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/AuthenticationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CommonAsserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/HooksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ListsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ReadCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ReadCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Credentials/Credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/credentials/Credentials.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Authentication.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Lists.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Lists.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestCases/Movies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testCases/Movies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataProviders/DataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/FacadeURL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FachadaURL/URL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Movies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/AuthenticationSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CommonAsserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CommonSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/HooksList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ListsSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ReadCredentials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,8 +86,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\src\test\resources\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\src\test\resources" />
       <recent name="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\framework Challenge\FrameworkChallenge\src\test\java" />
@@ -79,12 +99,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils.steps" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Lists">
+  <component name="RunManager" selected="TestNG.Lists.obtainingListDetail">
     <configuration name="Authentication" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Authentication" />
+      <option name="MAIN_CLASS_NAME" value="tests.Authentication" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -95,20 +118,8 @@
     <configuration name="Authentication.creatingSession" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Authentication" />
+      <option name="MAIN_CLASS_NAME" value="tests.Authentication" />
       <option name="METHOD_NAME" value="creatingSession" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Authentication.creatingSessionLoginIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Authentication" />
-      <option name="METHOD_NAME" value="creatingSessionLoginIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +130,7 @@
     <configuration name="Lists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lists" />
+      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,8 +141,26 @@
     <configuration name="Lists.CreatingListOfMovies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Lists" />
+      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
       <option name="METHOD_NAME" value="CreatingListOfMovies" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lists.obtainingListDetail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
+      <option name="METHOD_NAME" value="obtainingListDetail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Lists.obtainingListDetail" />
+        <item itemvalue="TestNG.Lists.CreatingListOfMovies" />
         <item itemvalue="TestNG.Lists" />
         <item itemvalue="TestNG.Authentication" />
-        <item itemvalue="TestNG.Lists.CreatingListOfMovies" />
         <item itemvalue="TestNG.Authentication.creatingSession" />
-        <item itemvalue="TestNG.Authentication.creatingSessionLoginIn" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +190,7 @@
       <workItem from="1630102517791" duration="8914000" />
       <workItem from="1630332023472" duration="7346000" />
       <workItem from="1630348292160" duration="60710000" />
-      <workItem from="1630603377262" duration="19062000" />
+      <workItem from="1630603377262" duration="24690000" />
     </task>
     <servers />
   </component>
