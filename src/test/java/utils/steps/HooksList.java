@@ -18,7 +18,7 @@ public class HooksList extends Hooks{
 
     @BeforeClass(dependsOnMethods = {"preparingCredentials"})
     public void setupLists() throws IOException {
-        String [] moviesData = ReadListData.readListData("src/test/resources/data/dataLists.txt");
+        String [] moviesData = ReadData.readData("src/test/resources/data/dataLists.txt");
         idListDetail = moviesData[0];
         idMovieToAdd = moviesData[1];
         name = new Faker().letterify("list of testing ???????????????");

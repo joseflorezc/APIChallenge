@@ -24,7 +24,7 @@ public class Authentication extends Hooks {
 
 
 
-    @Test
+    @Test(priority = 0)
     public void CreatingGuestSession(){
         FacadeURL fachadaURL = new FacadeURL(""+ domain, "","authentication","","guest_session", true,false, ""+apiKey,"", false);
 
@@ -35,7 +35,7 @@ public class Authentication extends Hooks {
         Assert.assertTrue(CommonAsserts.successAssert(response));
     }
 
-    @Test
+    @Test(priority = 1)
     public void creatingRequestToken(){
 
         Response responseCreatingRequestToken = AuthenticationSteps.creatingRequestToken(apiKey);
@@ -44,7 +44,7 @@ public class Authentication extends Hooks {
 
     }
 
-    @Test
+    @Test(priority = 2)
     public void creatingSessionLoginIn(){
 
         Response responseCreatingSessionLoginIn = AuthenticationSteps.creatingSessionLoginIn(apiKey, username, password);
@@ -56,7 +56,7 @@ public class Authentication extends Hooks {
 
     }
 
-    @Test
+    @Test(priority = 3)
     public void creatingSession(){
 
         Response responseCreatingSession = AuthenticationSteps.creatingSession(apiKey, username, password);
@@ -65,7 +65,7 @@ public class Authentication extends Hooks {
         CommonAsserts.notNullAssertWithPath(responseCreatingSession, "session_id", "The session id of creating session, appears to be null");
     }
 
-    @Test
+    @Test(priority = 4)
     public void deletingExistingSession(){
 
         Response responseDeletingExistingSession = AuthenticationSteps.deletingExistingSession(apiKey, username,password);

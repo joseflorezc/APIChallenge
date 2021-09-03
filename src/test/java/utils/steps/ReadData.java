@@ -4,9 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadListData {
+public class ReadData {
 
-    public static String [] readListData(String file) throws IOException {
+    public static String [] readData(String file) throws IOException {
         String [] credentials =  new String[3];
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
