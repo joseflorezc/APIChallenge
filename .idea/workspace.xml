@@ -5,48 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/01024a99-6d24-4ab0-9c40-5e9a6ac0432d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/05bb23b0-9941-4044-afac-cba5bed42ea8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0e06ad1c-9138-450f-8980-855fa87debbc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1927984b-dfc2-4c8f-9b16-17de8d25d973-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1d8123ed-8f89-48b4-a168-60065aa613b0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/36c1cc14-8a99-4ceb-b1ac-5af2a6b3ab92-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3db1a829-19fe-4bbc-8c80-feb92f5ba5e3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4422c037-185f-4f0f-9e7b-3ca0baa3bd7a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4d2ef7ec-d18f-453d-b25b-27c5e9536aa5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6015b60e-11ab-4898-8862-825a129cec81-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/64b13c0a-d944-4b97-93fe-adabcaf22d83-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6b3e0462-873f-4b46-9ba5-194501cd845d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/71eab41c-9bc0-42ac-9c74-6522b8dfbd3f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/734899c8-261d-4610-97e3-50f62a1d902d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/75eb12ae-5627-4787-8e2b-e06ee3b41efd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/825810c2-e82d-4f82-9a27-7f9777c786e2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/894dd163-e8ab-47d7-b7b1-5f33e619ba07-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/932b51e3-5bcc-4d8e-8566-10fa7adb9624-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9659e18d-9b7a-4960-af9f-f1d507a8e6c1-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/96ed6f31-21b8-4da7-a7f0-26396b2295ec-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9ed16bf7-1ae8-4a2a-94b3-ece5927dd9e7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a55fcfd2-205b-4238-98f8-510e58971111-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/acf0a20d-cea9-49cd-b155-1caaa16c2192-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b331f19e-01d4-4bd5-ae2b-84aec6620f65-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d9b3cf94-397f-4ead-acf8-ef86f44fe9d3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e1bd5b32-715e-43fb-ad13-5b5f14edaa89-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e43d505c-d900-4568-b5a4-5c70bb2b3785-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ec9f472c-98a4-45a3-8ddc-95a3c866590b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksPeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/PeopleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/dataPeople.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1786f9b0-0af1-4caa-a730-977561f40ce6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a993751-4645-4251-a077-253e1f9b12b5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3ecbe42d-f545-425d-a879-5f4520764ba0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b83480e-9364-4ace-9c0f-2c49ebb2ac92-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60c63cb9-e8f9-4b4b-b6d8-7a6334edb3d1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6f33708e-9899-4180-ac4b-8063a787f335-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b46f7dc-0175-490a-9e3e-f3f199ce2f91-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/834bf45e-6dc6-491a-a517-227d9f28c539-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a432ca84-ec6a-44e3-82f6-4c6ec875f052-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/abc0a75e-cb06-4bad-bb9e-cca8c78d8e38-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c70ab1e9-4f41-4a4f-89b7-d04e0c4522f6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e1a17f11-990e-409e-9c14-267f8fd5f1d5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksMovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/dataMovies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/ReadListData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ReadData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/ReadListData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/HooksPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksPeople.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksPeople.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/MoviesSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/MoviesSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +93,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.People.obtainingPeopleDetail">
+  <component name="RunManager" selected="TestNG.Movies.ratingAMovie">
     <configuration name="Lists" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <extension name="coverage">
@@ -125,24 +105,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.Lists" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lists.clearingMoviesFromList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
-      <option name="METHOD_NAME" value="clearingMoviesFromList" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lists.obtainingListDetail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Movies.obtainingPeopleDetail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +138,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
-      <option name="METHOD_NAME" value="obtainingListDetail" />
+      <option name="MAIN_CLASS_NAME" value="tests.Movies" />
+      <option name="METHOD_NAME" value="obtainingPeopleDetail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Movies.ratingAMovie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Movies" />
+      <option name="METHOD_NAME" value="ratingAMovie" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -205,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Movies.ratingAMovie" />
+        <item itemvalue="TestNG.Movies.obtainingPeopleDetail" />
         <item itemvalue="TestNG.People.obtainingPeopleDetail" />
         <item itemvalue="TestNG.Lists" />
         <item itemvalue="TestNG.Lists.deletingListWithID" />
-        <item itemvalue="TestNG.Lists.clearingMoviesFromList" />
-        <item itemvalue="TestNG.Lists.obtainingListDetail" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +207,7 @@
       <workItem from="1630348292160" duration="60710000" />
       <workItem from="1630603377262" duration="31899000" />
       <workItem from="1630645523043" duration="2996000" />
-      <workItem from="1630648747173" duration="1787000" />
+      <workItem from="1630648747173" duration="3734000" />
     </task>
     <servers />
   </component>
