@@ -5,28 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/1786f9b0-0af1-4caa-a730-977561f40ce6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2a993751-4645-4251-a077-253e1f9b12b5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3ecbe42d-f545-425d-a879-5f4520764ba0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5b83480e-9364-4ace-9c0f-2c49ebb2ac92-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/60c63cb9-e8f9-4b4b-b6d8-7a6334edb3d1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6f33708e-9899-4180-ac4b-8063a787f335-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7b46f7dc-0175-490a-9e3e-f3f199ce2f91-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/834bf45e-6dc6-491a-a517-227d9f28c539-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a432ca84-ec6a-44e3-82f6-4c6ec875f052-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/abc0a75e-cb06-4bad-bb9e-cca8c78d8e38-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c70ab1e9-4f41-4a4f-89b7-d04e0c4522f6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e1a17f11-990e-409e-9c14-267f8fd5f1d5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/dataMovies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/HooksPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/HooksPeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/MoviesSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/AuthenticationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/CommonSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/steps/ListsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/APIChallenge-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/The Movie DB/Regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Authentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Authentication.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Lists.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.Lists.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/The Movie DB/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Lists.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Movies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/People.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/HooksPeople.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/MoviesSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/MoviesSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/steps/AuthenticationSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +100,8 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Movies.ratingAMovie">
-    <configuration name="Lists" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Authentication.creatingSessionLoginIn">
+    <configuration name="Authentication.CreatingGuestSession" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <extension name="coverage">
         <pattern>
@@ -103,15 +110,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.Authentication" />
+      <option name="METHOD_NAME" value="CreatingGuestSession" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lists.deletingListWithID" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.creatingSessionLoginIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIChallenge" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Lists" />
-      <option name="METHOD_NAME" value="deletingListWithID" />
+      <option name="MAIN_CLASS_NAME" value="tests.Authentication" />
+      <option name="METHOD_NAME" value="creatingSessionLoginIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Authentication.creatingSessionLoginIn" />
+        <item itemvalue="TestNG.Authentication.CreatingGuestSession" />
         <item itemvalue="TestNG.Movies.ratingAMovie" />
         <item itemvalue="TestNG.Movies.obtainingPeopleDetail" />
         <item itemvalue="TestNG.People.obtainingPeopleDetail" />
-        <item itemvalue="TestNG.Lists" />
-        <item itemvalue="TestNG.Lists.deletingListWithID" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +215,7 @@
       <workItem from="1630348292160" duration="60710000" />
       <workItem from="1630603377262" duration="31899000" />
       <workItem from="1630645523043" duration="2996000" />
-      <workItem from="1630648747173" duration="3734000" />
+      <workItem from="1630648747173" duration="4492000" />
     </task>
     <servers />
   </component>

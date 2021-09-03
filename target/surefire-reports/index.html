@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">13 methods,   13 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,17 @@
                     <div class="method-list-content passed suite-The_Movie_DB">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-The_Movie_DB" title="tests.Authentication" class="method navigator-link" hash-for-method="CreatingGuestSession">CreatingGuestSession</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-The_Movie_DB" title="tests.Lists" class="method navigator-link" hash-for-method="addingMovieToList">addingMovieToList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-The_Movie_DB" title="tests.Lists" class="method navigator-link" hash-for-method="clearingMoviesFromList">clearingMoviesFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-The_Movie_DB" title="tests.Authentication" class="method navigator-link" hash-for-method="creatingGuestSession">creatingGuestSession</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,6 +152,21 @@
                         <a href="#" panel-name="suite-The_Movie_DB" title="tests.Lists" class="method navigator-link" hash-for-method="obtainingListDetail">obtainingListDetail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-The_Movie_DB" title="tests.People" class="method navigator-link" hash-for-method="obtainingPeopleDetail">obtainingPeopleDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-The_Movie_DB" title="tests.Movies" class="method navigator-link" hash-for-method="obtainingPeopleDetail">obtainingPeopleDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-The_Movie_DB" title="tests.Movies" class="method navigator-link" hash-for-method="ratingAMovie">ratingAMovie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-The_Movie_DB -->
                   </li>
                 </ul>
@@ -167,14 +182,51 @@
           <div class="suite-The_Movie_DB-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.People</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="obtainingPeopleDetail">
+                  </a> <!-- obtainingPeopleDetail -->
+                  <span class="method-name">obtainingPeopleDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-The_Movie_DB-class-passed -->
+          <div class="suite-The_Movie_DB-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Movies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="obtainingPeopleDetail">
+                  </a> <!-- obtainingPeopleDetail -->
+                  <span class="method-name">obtainingPeopleDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ratingAMovie">
+                  </a> <!-- ratingAMovie -->
+                  <span class="method-name">ratingAMovie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-The_Movie_DB-class-passed -->
+          <div class="suite-The_Movie_DB-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.Authentication</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreatingGuestSession">
-                  </a> <!-- CreatingGuestSession -->
-                  <span class="method-name">CreatingGuestSession</span>
+                  <a name="creatingGuestSession">
+                  </a> <!-- creatingGuestSession -->
+                  <span class="method-name">creatingGuestSession</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -265,6 +317,7 @@
       &lt;class name=&quot;tests.Authentication&quot;/&gt;
       &lt;class name=&quot;tests.Lists&quot;/&gt;
       &lt;class name=&quot;tests.Movies&quot;/&gt;
+      &lt;class name=&quot;tests.People&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression --&gt;
 &lt;/suite&gt; &lt;!-- The Movie DB --&gt;
@@ -278,7 +331,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression (3 classes)</span>
+                <span class="test-name">Regression (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -304,47 +357,59 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreatingGuestSession')
+data.setCell(0, 1, 'creatingGuestSession')
 data.setCell(0, 2, 'tests.Authentication')
-data.setCell(0, 3, 2687);
+data.setCell(0, 3, 2596);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addingMovieToList')
 data.setCell(1, 2, 'tests.Lists')
-data.setCell(1, 3, 461);
+data.setCell(1, 3, 541);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'creatingSessionLoginIn')
 data.setCell(2, 2, 'tests.Authentication')
-data.setCell(2, 3, 345);
+data.setCell(2, 3, 335);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'creatingListOfMovies')
-data.setCell(3, 2, 'tests.Lists')
-data.setCell(3, 3, 326);
+data.setCell(3, 1, 'deletingExistingSession')
+data.setCell(3, 2, 'tests.Authentication')
+data.setCell(3, 3, 291);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deletingExistingSession')
+data.setCell(4, 1, 'creatingSession')
 data.setCell(4, 2, 'tests.Authentication')
-data.setCell(4, 3, 257);
+data.setCell(4, 3, 279);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deletingListWithID')
+data.setCell(5, 1, 'creatingListOfMovies')
 data.setCell(5, 2, 'tests.Lists')
-data.setCell(5, 3, 246);
+data.setCell(5, 3, 260);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'creatingSession')
-data.setCell(6, 2, 'tests.Authentication')
-data.setCell(6, 3, 211);
+data.setCell(6, 1, 'ratingAMovie')
+data.setCell(6, 2, 'tests.Movies')
+data.setCell(6, 3, 259);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'clearingMoviesFromList')
-data.setCell(7, 2, 'tests.Lists')
-data.setCell(7, 3, 201);
+data.setCell(7, 1, 'creatingRequestToken')
+data.setCell(7, 2, 'tests.Authentication')
+data.setCell(7, 3, 254);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'obtainingListDetail')
+data.setCell(8, 1, 'clearingMoviesFromList')
 data.setCell(8, 2, 'tests.Lists')
-data.setCell(8, 3, 198);
+data.setCell(8, 3, 223);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'creatingRequestToken')
-data.setCell(9, 2, 'tests.Authentication')
-data.setCell(9, 3, 198);
+data.setCell(9, 1, 'obtainingListDetail')
+data.setCell(9, 2, 'tests.Lists')
+data.setCell(9, 3, 209);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deletingListWithID')
+data.setCell(10, 2, 'tests.Lists')
+data.setCell(10, 3, 200);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'obtainingPeopleDetail')
+data.setCell(11, 2, 'tests.People')
+data.setCell(11, 3, 116);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'obtainingPeopleDetail')
+data.setCell(12, 2, 'tests.Movies')
+data.setCell(12, 3, 105);
 window.suiteTableData['The_Movie_DB']= { tableData: data, tableDiv: 'times-div-The_Movie_DB'}
 return data;
 }
@@ -381,55 +446,89 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">CreatingGuestSession</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-name">creatingGuestSession</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">creatingRequestToken</span>
-                <span class="method-start">2787 ms</span>
+                <span class="method-start">2696 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">creatingSessionLoginIn</span>
-                <span class="method-start">2988 ms</span>
+                <span class="method-start">3064 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">creatingSession</span>
-                <span class="method-start">3336 ms</span>
+                <span class="method-start">3401 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deletingExistingSession</span>
-                <span class="method-start">3548 ms</span>
+                <span class="method-start">3680 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.Lists</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">preparingCredentials</span>
-                <span class="method-start">3807 ms</span>
+                <span class="method-start">3974 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setupLists</span>
-                <span class="method-start">3809 ms</span>
+                <span class="method-start">3975 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addingMovieToList</span>
-                <span class="method-start">4563 ms</span>
+                <span class="method-start">4750 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clearingMoviesFromList</span>
-                <span class="method-start">5026 ms</span>
+                <span class="method-start">5294 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">creatingListOfMovies</span>
-                <span class="method-start">5229 ms</span>
+                <span class="method-start">5519 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deletingListWithID</span>
-                <span class="method-start">5557 ms</span>
+                <span class="method-start">5781 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">obtainingListDetail</span>
-                <span class="method-start">5805 ms</span>
+                <span class="method-start">5981 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Movies</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">preparingCredentials</span>
+                <span class="method-start">6192 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupPeople</span>
+                <span class="method-start">6194 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">obtainingPeopleDetail</span>
+                <span class="method-start">6804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ratingAMovie</span>
+                <span class="method-start">6911 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.People</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">preparingCredentials</span>
+                <span class="method-start">7174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupPeople</span>
+                <span class="method-start">7176 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">obtainingPeopleDetail</span>
+                <span class="method-start">7936 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

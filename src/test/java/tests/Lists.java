@@ -19,8 +19,8 @@ public class Lists extends HooksList {
     public void obtainingListDetail() {
         Response response = ListsSteps.obtainingListDetail(apiKey, domain, idListDetail);
 
-        response.then().extract().path("created_by").equals("joseflorez");
-        response.then().extract().path("id").equals(idListDetail);
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(response,"created_by", "joseflorez"), "Error in created by of the list detail");
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(response,"id", idListDetail),"Error in the id of the list detail");
     }
 
     @Test

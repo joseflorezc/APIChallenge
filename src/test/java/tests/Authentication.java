@@ -25,14 +25,12 @@ public class Authentication extends Hooks {
 
 
     @Test(priority = 0)
-    public void CreatingGuestSession(){
-        FacadeURL fachadaURL = new FacadeURL(""+ domain, "","authentication","","guest_session", true,false, ""+apiKey,"", false);
+    public void creatingGuestSession(){
 
-        String url = fachadaURL.construirURLFaca();
 
-        Response response = when().get(url);
+        Response responseCreatingGuestSession = AuthenticationSteps.creatingGuestSession(apiKey);
 
-        Assert.assertTrue(CommonAsserts.successAssert(response));
+        Assert.assertTrue(CommonAsserts.successAssert(responseCreatingGuestSession));
     }
 
     @Test(priority = 1)
@@ -40,7 +38,7 @@ public class Authentication extends Hooks {
 
         Response responseCreatingRequestToken = AuthenticationSteps.creatingRequestToken(apiKey);
 
-        assertThat("The token was not successfully created", CommonAsserts.successAssert(responseCreatingRequestToken));
+        Assert.assertTrue(CommonAsserts.successAssert(responseCreatingRequestToken),"The request for the token was not successfully completed");
 
     }
 
@@ -50,8 +48,8 @@ public class Authentication extends Hooks {
         Response responseCreatingSessionLoginIn = AuthenticationSteps.creatingSessionLoginIn(apiKey, username, password);
 
 
-        assertThat("The session login in was not successfully completed, the success message was false", CommonAsserts.successAssert(responseCreatingSessionLoginIn));
-        assertThat("The session login in was not successfully completed, the token was not equal to the one sent in the body", CommonAsserts.expectedStringAssertWithPath(responseCreatingSessionLoginIn, "request_token", requestToken));
+        Assert.assertTrue(CommonAsserts.successAssert(responseCreatingSessionLoginIn),"The session login in was not successfully completed, the success message was false");
+        Assert.assertTrue(CommonAsserts.expectedStringAssertWithPath(responseCreatingSessionLoginIn, "request_token", requestToken),"The session login in was not successfully completed, the token was not equal to the one sent in the body");
 
 
     }

@@ -84,7 +84,7 @@ public class ListsSteps extends HooksList {
     public static Response deletingListWithID(String apiKey, String domain, String session_id, String name, String description, String language) {
 
         if (idListToAdd == "") {
-            creatingListOfMovies(apiKey, domain, session_id, name, description+"deleting", language);
+            creatingListOfMovies(apiKey, domain, session_id, name, description + "deleting", language);
         }
 
         FacadeURL facadeURL = new FacadeURL("" + domain, "", "list", "" + idListToAdd, "", false, false, "" + apiKey, "" + session_id, false);
@@ -92,9 +92,9 @@ public class ListsSteps extends HooksList {
 
 
         Response response = when().delete(urlClearingMoviesFromList);
-        response.then().log().body();
-        if (CommonAsserts.expectedNumberAssertWithPath(response, "status_code", 11)){
-            idListToAdd ="";
+
+        if (CommonAsserts.expectedNumberAssertWithPath(response, "status_code", 11)) {
+            idListToAdd = "";
         }
 
         return response;

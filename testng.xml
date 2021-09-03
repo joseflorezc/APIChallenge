@@ -6,6 +6,7 @@
             <class name="tests.Authentication"/>
             <class name="tests.Lists"/>
             <class name="tests.Movies"/>
+            <class name="tests.People"/>
         </classes>
     </test> <!-- Test -->
 </suite>

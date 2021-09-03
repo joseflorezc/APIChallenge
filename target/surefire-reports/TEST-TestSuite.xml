@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.868" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.089" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Users\jflorez\OneDrive - ENDAVA\Documents\programas\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\jflorez\AppData\Local\Temp\surefire2955389681169507129\surefirebooter11049753177888625574.jar C:\Users\jflorez\AppData\Local\Temp\surefire2955389681169507129 2021-09-03T01-06-08_215-jvmRun1 surefire16183856668524605990tmp surefire_09196050368112985406tmp"/>
+    <property name="sun.java.command" value="C:\Users\jflorez\AppData\Local\Temp\surefire5876938550807609763\surefirebooter17198380331665039026.jar C:\Users\jflorez\AppData\Local\Temp\surefire5876938550807609763 2021-09-03T02-15-51_018-jvmRun1 surefire6463816848076532194tmp surefire_014483918273899903764tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\target\test-classes;C:\Users\jflorez\OneDrive - ENDAVA\Documents\endava\challenges\API challenge\APIChallenge\target\classes;C:\Users\jflorez\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\jflorez\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\jflorez\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\jflorez\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\jflorez\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\jflorez\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\jflorez\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jflorez\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jflorez\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jflorez\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jflorez\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jflorez\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jflorez\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jflorez\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\jflorez\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\jflorez\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\jflorez\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\jflorez\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jflorez\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jflorez\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\jflorez\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\jflorez\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\jflorez\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\jflorez\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\jflorez\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\jflorez\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\jflorez\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\jflorez\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\jflorez\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\jflorez\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\jflorez\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\jflorez\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\jflorez\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\jflorez\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\jflorez\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\jflorez\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\jflorez\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\jflorez\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\jflorez\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\jflorez\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\jflorez\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\jflorez\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\jflorez\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\jflorez\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\jflorez\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\jflorez\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\jflorez\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\jflorez\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\jflorez\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\jflorez\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jflorez\AppData\Local\Temp\surefire2955389681169507129\surefirebooter11049753177888625574.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jflorez\AppData\Local\Temp\surefire5876938550807609763\surefirebooter17198380331665039026.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -57,26 +57,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="CreatingGuestSession" classname="tests.Authentication" time="2.687">
+  <testcase name="creatingGuestSession" classname="tests.Authentication" time="2.596">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="creatingRequestToken" classname="tests.Authentication" time="0.198"/>
-  <testcase name="creatingSessionLoginIn" classname="tests.Authentication" time="0.345"/>
-  <testcase name="creatingSession" classname="tests.Authentication" time="0.21"/>
-  <testcase name="deletingExistingSession" classname="tests.Authentication" time="0.256"/>
-  <testcase name="addingMovieToList" classname="tests.Lists" time="0.461"/>
-  <testcase name="clearingMoviesFromList" classname="tests.Lists" time="0.201"/>
-  <testcase name="creatingListOfMovies" classname="tests.Lists" time="0.325"/>
-  <testcase name="deletingListWithID" classname="tests.Lists" time="0.248">
-    <system-out><![CDATA[{
-    "success": false,
-    "status_code": 11,
-    "status_message": "Internal error: Something went wrong, contact TMDb."
-}
-]]></system-out>
-  </testcase>
-  <testcase name="obtainingListDetail" classname="tests.Lists" time="0.198"/>
+  <testcase name="creatingRequestToken" classname="tests.Authentication" time="0.254"/>
+  <testcase name="creatingSessionLoginIn" classname="tests.Authentication" time="0.335"/>
+  <testcase name="creatingSession" classname="tests.Authentication" time="0.278"/>
+  <testcase name="deletingExistingSession" classname="tests.Authentication" time="0.292"/>
+  <testcase name="addingMovieToList" classname="tests.Lists" time="0.542"/>
+  <testcase name="clearingMoviesFromList" classname="tests.Lists" time="0.222"/>
+  <testcase name="creatingListOfMovies" classname="tests.Lists" time="0.261"/>
+  <testcase name="deletingListWithID" classname="tests.Lists" time="0.199"/>
+  <testcase name="obtainingListDetail" classname="tests.Lists" time="0.209"/>
+  <testcase name="obtainingPeopleDetail" classname="tests.Movies" time="0.104"/>
+  <testcase name="ratingAMovie" classname="tests.Movies" time="0.259"/>
+  <testcase name="obtainingPeopleDetail" classname="tests.People" time="0.122"/>
 </testsuite>

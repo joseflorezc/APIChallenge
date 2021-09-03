@@ -9,6 +9,16 @@ import static io.restassured.RestAssured.when;
 
 public class AuthenticationSteps extends Hooks {
 
+    public static Response creatingGuestSession(String apiKey){
+        FacadeURL facadeURL = new FacadeURL(""+ domain, "","authentication","","guest_session", true,false, ""+apiKey,"", false);
+
+        String url = facadeURL.construirURLFaca();
+
+        Response response = when().get(url);
+
+        return response;
+    }
+
 
     public static Response creatingRequestToken(String apiKey) {
         FacadeURL facadeURL = new FacadeURL("" + domain, "", "authentication", "", "token", true, false, "" + apiKey, "",false);
